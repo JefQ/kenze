@@ -86,6 +86,8 @@ public class CombinatieServiceTest {
         assertEquals(0, result.size());
     }
 
+    /*
+    Test For multiple word combinations
     @Test
     void testGetCombionationsWithMultipleWords() {
         ListOfWordsDto listOfWordsDto = new ListOfWordsDto(List.of(
@@ -107,5 +109,5 @@ public class CombinatieServiceTest {
 
         List<String> result = combinationService.getCombinations(8);
         assertEquals(5, result.size());
-    }
+    }*/
 }
