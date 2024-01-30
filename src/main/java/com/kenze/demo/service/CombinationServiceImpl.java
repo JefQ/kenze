@@ -1,11 +1,10 @@
-package com.kenze.demo;
+package com.kenze.demo.service;
 
 import org.springframework.stereotype.Component;
 
 import com.kenze.demo.db.RepositoryService;
 import com.kenze.demo.db.model.mapper.ListOfWordsDtoMapper;
 import com.kenze.demo.domain.ListOfWords;
-import com.kenze.demo.service.CombinationService;
 
 import java.util.List;
 import java.util.ArrayList;
